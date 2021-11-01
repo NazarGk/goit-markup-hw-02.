@@ -1,0 +1,436 @@
+
+/* PORTFOLIO */
+
+
+a{
+    text-decoration: none;
+}
+.body{
+position: relative;
+width: 1600px;
+height: 1880px;
+background: #FFFFFF;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+/* WebStudio */
+.title{
+position: absolute;
+width: 145px;
+height: 31px;
+left: 215px;
+top: 24px;
+font-family: 'Raleway', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 26px;
+line-height: 31px;
+color: #2196F3;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.accent-main{
+    color:black;
+}
+
+/* Menu nav */
+.page{
+position: absolute;
+width: 1600px;
+height: 80px;
+left: 0px;
+top: 0px;
+}
+.headline_1{
+position: absolute;
+width: 49px;
+height: 16px;
+left: 453px;
+top: 32px;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+color: #212121;
+}
+.headline_1:hover{color:#2196F3;}
+
+.headline_2{
+position: absolute;
+width: 77px;
+height: 16px;
+left: 552px;
+top: 32px;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+color: #212121;
+}
+.headline_2:hover{color: #2196F3;}
+
+.headline_3{
+position: absolute;
+width: 68px;
+height: 16px;
+left: 679px;
+top: 32px;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+color: #212121
+}
+.headline_3:hover{color:#2196F3;}
+
+.caption_1{
+    position: absolute;
+    width: 135px;
+    height: 16px;
+    left: 1078px;
+    top: 32px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #757575;
+}
+.caption_1:hover{color: #2196F3;}
+.caption_2{
+    position: absolute;
+    width: 122px;
+    height: 16px;
+    left: 1263px;
+    top: 32px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #757575;
+}
+.caption_2:hover{color: #2196F3;}
+
+
+/* Main nav */
+
+
+.main{
+    position: absolute;
+    width: 1170px;
+    height: 1360px;
+    left: 215px;
+    top: 174px;
+}
+
+.row{
+margin-left: 495px;
+margin-right: 494px;
+margin-bottom: 34px;
+}
+
+.btn{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+.row .btn:active{color: #2196F3;}
+
+.list{
+padding-left: 215px;
+padding-right: 215px;
+padding-top: 174px;
+}
+.img_1{
+    position: absolute;
+    width: 370px;
+    height: 404px;
+    left: 215px;
+    top: 262px;
+    }
+    .img_2{
+    position: absolute;
+    width: 370px;
+    height: 404px;
+    left: 615px;
+    top: 262px;
+    }
+    .img_3{
+    position: absolute;
+    width: 370px;
+    height: 404px;
+    left: 1015px;
+    top: 262px;
+    }
+    .img_4{
+    position: absolute;
+    width: 370px;
+    height: 404px;
+    left: 215px;
+    top: 696px;
+    }
+    .img_5{
+    position: absolute;
+    width: 370px;
+    height: 404px;
+    left: 615px;
+    top: 696px;
+    }
+    .img_6{
+    position: absolute;
+    width: 370px;
+    height: 404px;
+    left: 1015px;
+    top: 696px;
+    }
+    .img_7{
+    position: absolute;
+    width: 370px;
+    height: 404px;
+    left: 215px;
+    top: 1130px;
+    }
+    .img_8{
+    position: absolute;
+    width: 370px;
+    height: 404px;
+    left: 615px;
+    top: 1130px;
+    }
+    .img_9{
+    position: absolute;
+    width: 370px;
+    height: 404px;
+    left: 1015px;
+    top: 1130px;
+    }
+
+
+/* Footer */
+
+
+.footer{
+    position: absolute;
+width: 1600px;
+height: 252px;
+left: 0px;
+top: 1628px;
+background-color: #2F303A;
+}
+.title-down{
+position: absolute;
+left: 215px;
+top: 60px;
+right: 1240px;
+bottom: 161px;
+font-family: 'Raleway', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 26px;
+color: #2196F3;
+text-shadow:  0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.accent-footer{
+    color:#FFFFFF;
+}
+
+
+/* Adress nav */
+
+
+.address{
+    position: absolute;
+left: 215px;
+right: 1154px;
+top: 90px;
+bottom: 120px;
+font-size: 14px;
+font-style: normal;
+color: #FFFFFF;
+}
+.mail{
+    position: absolute;
+left: 215px;
+right: 1154px;
+top: 141px;
+bottom: 90px;
+font-size: 14px;
+font-style: normal;
+color: #FFFFFF99;
+}
+.tel{
+    position: absolute;
+left: 215px;
+right: 1154px;
+top: 171px;
+bottom: 60px;
+font-size: 14px;
+font-style: normal;
+color: #FFFFFF99;
+}
+
+
+
+/* MAIN PAGE */
+
+
+.body-main{
+    position: relative;
+    width: 1600px;
+    height: 2349px;
+    
+    background: #FFFFFF;
+}
+
+
+
+.hero{
+    position: absolute;
+    width: 1600px;
+    height: 600px;
+    left: 0px;
+    top: 80px;
+    border-radius: 4px;
+    margin-bottom: 112px;
+background-color: #2F303A;
+}
+
+.page-main{
+position: absolute;
+width: 696px;
+height: 120px;
+left: 437px;
+right: 467px;
+top: 195px;
+bottom: 285px;
+font-weight: 900;
+font-size: 44px;
+line-height: 60px;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+
+.btn-main{
+position: absolute;
+width: 200px;
+height: 50px;
+left: 685px;
+top: 407px;
+font-weight: 500;
+font-size: 16px;
+line-height: 26px;
+text-align: center;
+background: #2196F3;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+color: white;
+}
+
+.content{
+    position: absolute;
+width: 1170px;
+height: 101px;
+left: 215px;
+top: 774px;
+margin-bottom: 94px;
+}
+
+
+.row-main{
+position: absolute;
+width: 376px;
+height: 42px;
+left: 612px;
+top: 969px;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+margin-bottom: 94px;
+
+color: #212121;
+}
+
+.img-box1{
+position: absolute;
+left: 215px;
+top: 1061px;
+}
+
+.img-box2{
+position: absolute;
+left: 615px;
+top: 1061px;
+}
+
+.img-box3{
+position: absolute;
+left: 1015px;
+top: 1061px;
+}
+
+.our-team{
+    position: absolute;
+    width: 1600px;
+    height: 648px;
+    left: 0px;
+    top: 1449px;    
+    background-color: #F5F4FA;
+    }
+}
+
+.row-team{
+    position: absolute;
+    width: 264px;
+    height: 42px;
+    left: 668px;
+    top: 1543px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.team-1{
+position: absolute;
+left: 215px;
+right: 1115px;
+bottom: 94px;
+top: 186px;
+}
+
+.team-2{
+    position: absolute;
+left: 515px;
+right: 815px;
+bottom: 94px;
+top: 186px;
+}
+
+.team-3{
+position: absolute;
+left: 815px;
+right: 515px;
+bottom: 94px;
+top: 186px;
+}
+
+.team-4{
+    position: absolute;
+    left: 1115px;
+    right: 215px;
+    bottom: 94px;
+    top: 186px;
+}
+
+.footer-main{
+    position: absolute;
+    width: 1600px;
+    height: 252px;
+    left: 0px;
+    top: 2097px;
+    background-color: #2F303A;
+}
