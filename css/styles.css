@@ -181,8 +181,6 @@ color: #FFFFFF99;
 
 
 .hero{
-    border-radius: 4px;
-    margin-bottom: 112px;
 background-color: #2F303A;
 }
 
@@ -230,13 +228,13 @@ color: #757575;
 }
 
 .row-main{
-font-size: 36px;
-line-height: 42px;
-margin-bottom: 94px;
-text-transform: uppercase;
-color: #212121;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 0.03em;
+    color: #212121;
 }
-
 
 
 .our-team{   
